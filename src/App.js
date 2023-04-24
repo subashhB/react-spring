@@ -1,11 +1,10 @@
-import GettingStarted from "./components/GettingStarted";
-import Toggle from "./components/Toggle";
+
+import ParallaxPage from "./pages/ParallaxPage";
 
 function App() {
   return (
     <div className="App" >
-      <GettingStarted/>
-      <Toggle/>
+      <ParallaxPage/>
     </div>
   );
 }
